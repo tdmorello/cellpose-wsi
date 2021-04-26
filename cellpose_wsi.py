@@ -27,10 +27,10 @@ javabridge.start_vm(class_path=bioformats.JARS)
 use_GPU = models.use_gpu()
 print('>>> GPU activated? %d' % use_GPU)
 
-filename = "/content/gdrive/MyDrive/image-processing/b38f-sag_L-neun_calr-w11_2-cla-63x-a_overview.czi"
+filename = ""
 filename = Path(filename)
 
-input_folder = "/content/gdrive/MyDrive/image-processing/"
+input_folder = ""
 img_extension = "czi"
 
 files_list = []
